@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/Provider.jsx", "src/app/layout.js", "src/app/Particle.jsx"  ],
+, "src/app/Provider.jsx", "src/app/layout.js", "src/app/Particles.jsx"  ],
   "exclude": [
     "node_modules"
   ]
