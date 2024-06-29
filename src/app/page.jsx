@@ -28,7 +28,7 @@ export default function Home() {
               <p>Hi,</p> I&apos;m Samiur Rahman Wasi  <br /> {' '}
               <span style={{ color: 'red', fontWeight: 'bold' }}>
                 <Typewriter
-                  words={['React developer', 'Node.js developer', 'CSE undergrad', 'Tech enthusiast']}
+                  words={['Web developer','React developer', 'Node.js developer', 'CSE undergrad', 'Tech enthusiast']}
                   loop={0}
                   cursor
                   cursorStyle='|'
@@ -39,7 +39,7 @@ export default function Home() {
               </span>
             </h1>
             <div className="my-[15%]">
-              <a href="https://drive.google.com/file/d/1xp-ymC6ypvKL4Ju8sESD-JkNIyZjxT6T/view">
+              <a href="https://drive.google.com/file/d/1-PZn7GavwdQTn1U5FUnvITubU4Yczef3/view">
                 <Button className="bg-[#ff0000] text-lg rounded-sm">
                   Resume <TbFileText />
                 </Button>
