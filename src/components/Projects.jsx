@@ -17,11 +17,12 @@ const Projects = () => {
                             href='https://care-camp-a12.web.app'
                             className="relative col-span-6 md:col-span-4">
                             <Image
+                                isBlurred
                                 alt="Album cover"
-                                className="object-cover shadow-red-500 shadow-lg hover:scale-105"
+                                className="object-cover hover:scale-105"
                                 height={200}
                                 shadow="md"
-                                src="https://i.ibb.co/7NbtSGJ/Screenshot-2024-06-23-184809.png"
+                                src="/images/Screenshot 2024-06-24 181441.png"
                                 width="100%"
                             />
                         </a>
@@ -96,11 +97,12 @@ const Projects = () => {
                             href='https://bookedinn-a11.web.app/'
                             className="relative col-span-6 md:col-span-4">
                             <Image
+                                isBlurred
                                 alt="Album cover"
-                                className="object-cover  shadow-red-500 shadow-lg hover:scale-105" 
+                                className="object-cover hover:scale-105"
                                 height={200}
                                 shadow="md"
-                                src="https://i.ibb.co/VQv8mLd/bookedinn-a11-web-app-9.png"
+                                src="/images/bookedinn-a11.web.app_ (9).png"
                                 width="100%"
                             />
                         </a>
@@ -115,14 +117,15 @@ const Projects = () => {
                 <CardBody>
                     <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
                         <a
-                        href='https://sam-travels-a10.web.app' 
-                        className="relative col-span-6 md:col-span-4">
+                            href='https://sam-travels-a10.web.app'
+                            className="relative col-span-6 md:col-span-4">
                             <Image
+                                isBlurred
                                 alt="Album cover"
-                                className="object-cover  shadow-red-500 shadow-lg hover:scale-105"
+                                className="object-cover hover:scale-105"
                                 height={200}
                                 shadow="md"
-                                src="https://i.ibb.co/K6yJxzh/sam-travels-a10-web-app-6.png"
+                                src="/images/sam-travels-a10.web.app_ (6).png"
                                 width="100%"
                             />
                         </a>

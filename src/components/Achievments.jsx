@@ -10,30 +10,31 @@ const Achievments = () => {
                     <Image
                         isBlurred
                         width="396px"
-                        src="https://i.ibb.co/gdQmPqn/Samiur-Rahman-Wasi.jpg"
+                        src="/images/certificate_page-0001.jpg"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>Web Development</h1>
+                </div>
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        src="/images/Samiur Rahman Wasi.jpg"
                         alt="NextUI Album Cover"
                     />
                     <h1 className='text-center font-pop'>Competitive Programing</h1>
                 </div>
+
                 <div>
                     <Image
                         isBlurred
                         width="396px"
-                        src="https://i.ibb.co/pKtmDTw/Screenshot-2024-06-27-010101.png"
+                        src="/images/Screenshot 2024-06-27 010101.png"
                         alt="NextUI Album Cover"
                     />
                     <h1 className='text-center font-pop'>Communication</h1>
                 </div>
-                <div>
-                    <Image
-                        isBlurred
-                        width="396px"
-                        src="https://i.ibb.co/njQrmcw/1714749303256.jpg"
-                        alt="NextUI Album Cover"
-                    />
-                    <h1 className='text-center font-pop'>Science Carnival</h1>
-                </div>
-                
+
             </div>
         </div>
     );
