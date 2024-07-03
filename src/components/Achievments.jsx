@@ -3,7 +3,7 @@ import React from 'react';
 
 const Achievments = () => {
     return (
-        <div className='my-24 mx-auto'>
+        <div className='my-48 mx-auto'>
             <h1 className='underline text-4xl font-pop font-bold text-center mb-10'>Achievements</h1>
             <div className='flex flex-wrap gap-5 justify-center'>
                 <div>
