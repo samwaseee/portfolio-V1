@@ -46,7 +46,7 @@ export default function Home() {
                 </span>
               </h1>
               <div className="my-[15%]">
-                <a href="https://drive.google.com/file/d/1_oGuW2G0tBC79yON5XPafyXdHhwwM94d/view">
+                <a href="https://drive.google.com/file/d/1USJt6uThG9662unjn-I0Ups3TETW1aeT/view?usp=sharing">
                   <Button className="bg-[#ff0000] text-lg rounded-sm">
                     Resume <TbFileText />
                   </Button>
