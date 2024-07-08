@@ -11,66 +11,67 @@ const Skills = () => {
                 <SolarSystem className='scale-50 w-96 h-96 lg:w-[700px] lg:h-[600px] lg:scale-100 left-[15%]'>
                     <Sun>SKILLS</Sun>
                     <Orbit duration="10s">
-                        <Planet className=''><FaJs size={50} color="#F7DF1E" /></Planet>
+                        <Planet className=''><FaJs size={"7rem"} color="#F7DF1E" /></Planet>
                     </Orbit>
                     <Orbit duration="13s">
-                        <Planet className='m-14'><SiC size={50} color="#A8B9CC" /></Planet>
+                        <Planet className='m-14'><SiC size={"7rem"} color="#A8B9CC" /></Planet>
                     </Orbit>
                     <Orbit duration="16s" size="200px">
-                        <Planet className='-m-28'><SiCplusplus size={50} color="#00599C" /></Planet>
+                        <Planet className='-m-16'><SiCplusplus size={"7rem"} color="#00599C" /></Planet>
                     </Orbit>
                     <Orbit duration="15s" size="250px">
-                        <Planet className='-m-24'><FaCss3Alt size={50} color="#1572B6" /></Planet>
+                        <Planet className='-m-20'><FaCss3Alt size={"7rem"} color="#1572B6" /></Planet>
                     </Orbit>
                     <Orbit duration="11s" size="300px">
-                        <Planet className='m-12'><SiExpress size={50} color="#fff" /></Planet>
+                        <Planet className='m-12'><SiExpress size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
                     <Orbit duration="13s" size="350px">
-                        <Planet className='m-4'><SiFirebase size={50} color="#FFCA28" /></Planet>
+                        <Planet className='m-4'><SiFirebase color="#FFCA28" size={50} /></Planet>
                     </Orbit>
                     <Orbit duration="14s" size="500px">
-                        <Planet className='-m-20'><FaHtml5 size={50} color="#E34F26" /></Planet>
+                        <Planet className='-m-20'><FaHtml5 size={"7rem"} color="#E34F26" /></Planet>
                     </Orbit>
                     <Orbit duration="16s" size="400px">
-                        <Planet className='m-14'><SiMongodb size={50} color="#47A248" /></Planet>
+                        <Planet className='m-14'><SiMongodb size={"7rem"} color="#47A248" /></Planet>
                     </Orbit>
                     <Orbit duration="18s" size="450px">
-                        <Planet className='m-14'><SiMicrosoftsqlserver size={50} color="#CC2927" /></Planet>
+                        <Planet className='m-14'><SiMicrosoftsqlserver size={"7rem"} color="#CC2927" /></Planet>
                     </Orbit>
                     <Orbit duration="20s" size="500px">
-                        <Planet className='m-14'><FaNodeJs size={50} color="#339933" /></Planet>
+                        <Planet className='m-14'><FaNodeJs size={"7rem"} color="#339933" /></Planet>
                     </Orbit>
                     <Orbit duration="12s" size="550px">
-                        <Planet className='-m-16'><FaReact size={50} color="#61DAFB" /></Planet>
+                        <Planet className='-m-16'><FaReact size={"7rem"} color="#61DAFB" /></Planet>
                     </Orbit>
                     <Orbit duration="22s" size="600px">
-                        <Planet className='-m-14'><SiTailwindcss size={50} color="#06B6D4" /></Planet>
+                        <Planet className='-m-14'><SiTailwindcss size={"7rem"} color="#06B6D4" /></Planet>
                     </Orbit>
                     <Orbit duration="24s" size="600px">
-                        <Planet className='m-14'><SiNextui size={50} color="#fff" /></Planet>
+                        <Planet className='m-14'><SiNextui size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
                     <Orbit duration="12s" size="600px">
-                        <Planet className='m-14'><RiNextjsFill size={50} color="#fff" /></Planet>
+                        <Planet className='m-14'><RiNextjsFill size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
-                    <Orbit duration="10s" size="600px">
-                        <Planet className='-m-8'><SiDaisyui size={50} color="#fff" /></Planet>
+                    <Orbit duration="11s" size="600px">
+                        <Planet className='-m-8'><SiDaisyui size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
                     <Orbit duration="26s" size="600px">
-                        <Planet className='m-10'><SiMui size={50} color="#fff" /></Planet>
+                        <Planet className='m-10'><SiMui size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
                     <Orbit duration="28s" size="600px">
-                        <Planet className='m-10'><SiAntdesign size={50} color="#1890FF" /></Planet>
+                        <Planet className='m-10'><SiAntdesign size={"7rem"} color="#1890FF" /></Planet>
                     </Orbit>
                     <Orbit duration="25s" size="600px">
-                        <Planet className='m-10'><SiAxios size={50} color="#fff" /></Planet>
+                        <Planet className='m-10'><SiAxios size={"7rem"} color="#fff" /></Planet>
                     </Orbit>
                     <Orbit duration="27s" size="600px">
-                        <Planet className='m-10'><FaGitAlt size={50} color="#F1502F" /></Planet>
+                        <Planet className='m-10'><FaGitAlt size={"7rem"} color="#F1502F" /></Planet>
                     </Orbit>
                 </SolarSystem>
 
                 <SkillsList>
-                    <div>
+                    <div
+                        data-aos="zoom-in-right">
                         <SkillItem>ReactJS</SkillItem>
                         <SkillItem>NodeJS</SkillItem>
                         <SkillItem>ExpressJS</SkillItem>
@@ -79,7 +80,9 @@ const Skills = () => {
                         <SkillItem>HTML5</SkillItem>
                         <SkillItem>NextJS</SkillItem>
                     </div>
-                    <div className='ml-5'>
+                    <div
+                        data-aos="zoom-in-left"
+                        className='ml-5'>
                         <SkillItem> JavaScript </SkillItem>
                         <SkillItem> C </SkillItem>
                         <SkillItem>C++</SkillItem>
