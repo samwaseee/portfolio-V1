@@ -19,7 +19,7 @@ const Achievments = () => {
                     <Image
                         isBlurred
                         width="396px"
-                        src="/images/Samiur Rahman Wasi.jpg"
+                        src="/images/canvas.png"
                         alt="NextUI Album Cover"
                     />
                     <h1 className='text-center font-pop'>Competitive Programing</h1>
