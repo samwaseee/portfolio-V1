@@ -6,10 +6,62 @@ const Projects = () => {
         <div className='z-50'>
             <h1 className='underline text-4xl font-pop font-bold text-center mb-10'>Projects</h1>
 
+            
+
             <Card
-                data-aos="fade-down-right"
+                data-aos="zoom-in-down"
                 isBlurred
                 className="border-none bg-background/60 dark:bg-default-100/50 max-w-fit"
+                shadow="sm"
+            >
+                <CardBody>
+                    <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+                        <a
+                            href='https://starlight-un-edu.vercel.app'
+                            className="relative col-span-6 md:col-span-4">
+                            <Image
+                                isBlurred
+                                alt="Album cover"
+                                className="object-cover hover:scale-105"
+                                height={200}
+                                shadow="md"
+                                src="/images/project_1.png"
+                                width="100%"
+                            />
+                        </a>
+
+                        <div className="flex flex-col col-span-6 md:col-span-8">
+                            <div className="flex justify-between items-start">
+                                <div className="flex flex-col gap-0">
+                                    <h3 className="text-large font-medium">Starlight University</h3>
+                                    <p className="text-small text-foreground/80">MERN Stack</p>
+                                    <h1 className=" font-semibold text-foreground/90 mt-2">A Full-Stack School Management System (Team project)</h1>
+                                    <ul className="text-small text-foreground/80 space-y-5">Key Features:
+                                        <li>
+                                            Custom Authentication System: Secure login with encrypted credentials allows for robust data protection, ensuring that sensitive information remains confidential. This addresses the common issue of unauthorized access in educational systems.
+                                        </li>
+                                        <li>
+                                            Integrated Attendance Tracking: Both students and teachers can monitor attendance records in real-time, providing insights into attendance patterns and supporting timely interventions for absenteeism.
+                                        </li>
+                                        <li>
+                                            Role-Based Access Control: Different access levels for students, teachers, parents and administrators streamline permissions, allowing users to focus on their specific tasks without navigating unnecessary features.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="https://starlight-un-edu.vercel.app">
+                                    <Button>Live Site</Button>
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </CardBody>
+            </Card>
+            <Card
+                data-aos="zoom-in-up"
+                isBlurred
+                className="border-none bg-background/60 dark:bg-default-100/50 max-w-fit my-24"
                 shadow="sm"
             >
                 <CardBody>
@@ -23,7 +75,7 @@ const Projects = () => {
                                 className="object-cover hover:scale-105"
                                 height={200}
                                 shadow="md"
-                                src="/images/Screenshot 2024-06-24 181441.png"
+                                src="/images/project_2.png"
                                 width="100%"
                             />
                         </a>
@@ -62,7 +114,7 @@ const Projects = () => {
                 </CardBody>
             </Card>
             <Card
-                data-aos="fade-down-left"
+                data-aos="zoom-in-down"
                 isBlurred
                 className="border-none bg-background/60 dark:bg-default-100/50 max-w-fit my-24"
                 shadow="sm"
@@ -103,7 +155,7 @@ const Projects = () => {
                                 alt="Album cover"
                                 className="object-cover hover:scale-105"
                                 shadow="md"
-                                src="/images/bookedinn-a11.web.app_ (9).png"
+                                src="/images/project_3.png"
                                 width="100%"
                             />
                         </a>
@@ -111,7 +163,7 @@ const Projects = () => {
                 </CardBody>
             </Card>
             <Card
-                data-aos="fade-down-right"
+                data-aos="zoom-in-up"
                 isBlurred
                 className="border-none bg-background/60 dark:bg-default-100/50 max-w-fit"
                 shadow="sm"
@@ -126,7 +178,7 @@ const Projects = () => {
                                 alt="Album cover"
                                 className="object-cover hover:scale-105"
                                 shadow="md"
-                                src="/images/sam-travels-a10.web.app_ (6).png"
+                                src="/images/project_4.png"
                                 width="fit"
                             />
                         </a>

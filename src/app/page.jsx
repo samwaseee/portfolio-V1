@@ -11,9 +11,9 @@ import Particle from '../app/particle/Particle'
 import Skills from '../components/Skills'
 import About from '../components/About'
 import Projects from '../components/Projects'
-import Achievements from '../components/Achievments'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
+import Achievements from "../components/Achievments";
 
 export default function Home() {
   return (
