@@ -6,7 +6,7 @@ const Projects = () => {
         <div className='z-50'>
             <h1 className='underline text-4xl font-pop font-bold text-center mb-10'>Projects</h1>
 
-            
+
 
             <Card
                 data-aos="zoom-in-down"
@@ -16,19 +16,6 @@ const Projects = () => {
             >
                 <CardBody>
                     <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
-                        <a
-                            href='https://starlight-un-edu.vercel.app'
-                            className="relative col-span-6 md:col-span-4">
-                            <Image
-                                isBlurred
-                                alt="Album cover"
-                                className="object-cover hover:scale-105"
-                                height={200}
-                                shadow="md"
-                                src="/images/project_1.png"
-                                width="100%"
-                            />
-                        </a>
 
                         <div className="flex flex-col col-span-6 md:col-span-8">
                             <div className="flex justify-between items-start">
@@ -55,6 +42,21 @@ const Projects = () => {
 
 
                         </div>
+
+                        <a
+                            href='https://starlight-un-edu.vercel.app'
+                            className="relative col-span-6 md:col-span-4">
+                            <Image
+                                isBlurred
+                                alt="Album cover"
+                                className="object-cover hover:scale-105"
+                                height={200}
+                                shadow="md"
+                                src="/images/project_1.png"
+                                width="100%"
+                            />
+                        </a>
+
                     </div>
                 </CardBody>
             </Card>
