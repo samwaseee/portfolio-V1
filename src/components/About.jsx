@@ -20,7 +20,7 @@ const About = () => {
         <p className="text-center text-sm md:text-lg">
           As an ambitious Computer Science undergraduate, I possess a solid
           grounding in front-end web development, cultivated through my
-          coursework at Programming Hero. My fervor for web development has
+          coursework at Programming Hero and was one of the best students among my batch recieveing the Black-Belt. My fervor for web development has
           sharpened my analytical skills and prepared me to develop some
           user-centric and responsive full-stack web applications. Eager to
           leverage my analytical thinking, honed through competitive

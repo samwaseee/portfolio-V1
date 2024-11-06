@@ -58,8 +58,8 @@ export default function Home() {
               </div>
             </div>
             <Image
-              src="/images/077ea73c003d60cc.png"
-              width={500}
+              src="/images/Picsart_24-11-06_18-44-49-568.png"
+              width={400}
               height={500}
               alt="Samiur Rahman Wasi"
               className="z-30"
