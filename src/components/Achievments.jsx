@@ -71,6 +71,39 @@ const Achievments = () => {
                     <h1 className='text-center font-pop'>Competitive Programing</h1>
                 </div>
 
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-20'
+                        src="/images/Samiur Rahman Wasi.png"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>App Desing</h1>
+                </div>
+
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-20'
+                        src="/images/bl.jpg"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>Idea generation</h1>
+                </div>
+
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-20'
+                        src="/images/ieee.jpg"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>ICISET conference</h1>
+                </div>
+
             </div>
         </div>
     );
