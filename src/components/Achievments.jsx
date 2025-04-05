@@ -16,6 +16,7 @@ const Achievments = () => {
                     />
                     <h1 className='text-center font-pop'>Web Development</h1>
                 </div>
+
                 <div>
                     <Image
                         isBlurred
@@ -25,6 +26,17 @@ const Achievments = () => {
                         alt="NextUI Album Cover"
                     />
                     <h1 className='text-center font-pop'>Competitive Programing</h1>
+                </div>
+
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-30'
+                        src="/images/EDGE_certificate.png"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>App Development</h1>
                 </div>
 
                 <div>
@@ -79,7 +91,7 @@ const Achievments = () => {
                         src="/images/Samiur Rahman Wasi.png"
                         alt="NextUI Album Cover"
                     />
-                    <h1 className='text-center font-pop'>App Desing</h1>
+                    <h1 className='text-center font-pop'> App Desing</h1>
                 </div>
 
                 <div>
