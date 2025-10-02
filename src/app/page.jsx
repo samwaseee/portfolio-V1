@@ -1,7 +1,6 @@
 "use client"
 
 import { Button } from "@nextui-org/react";
-import Image from "next/image";
 import { CiLinkedin } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
 import { Typewriter } from "react-simple-typewriter";
@@ -57,13 +56,6 @@ export default function Home() {
                 <a href="https://github.com/samwaseee"><IoLogoGithub size={30} /></a>
               </div>
             </div>
-            <Image
-              src="/images/Picsart_24-11-06_18-44-49-568.png"
-              width={400}
-              height={500}
-              alt="Samiur Rahman Wasi"
-              className="z-30"
-            />
           </div>
         </div>
 

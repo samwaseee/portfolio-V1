@@ -70,8 +70,7 @@ const Skills = () => {
                 </SolarSystem>
 
                 <SkillsList>
-                    <div
-                        data-aos="zoom-in-right">
+                    <div>
                         <SkillItem>ReactJS</SkillItem>
                         <SkillItem>NodeJS</SkillItem>
                         <SkillItem>ExpressJS</SkillItem>
@@ -81,7 +80,6 @@ const Skills = () => {
                         <SkillItem>NextJS</SkillItem>
                     </div>
                     <div
-                        data-aos="zoom-in-left"
                         className='ml-5'>
                         <SkillItem> JavaScript </SkillItem>
                         <SkillItem> C </SkillItem>
