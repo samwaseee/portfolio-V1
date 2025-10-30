@@ -66,10 +66,10 @@ const Achievments = () => {
                         isBlurred
                         width="396px"
                         className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-20'
-                        src="/images/certificate_page-0001.jpg"
+                        src="/images/PowerBi.png"
                         alt="NextUI Album Cover"
                     />
-                    <h1 className='text-center font-pop'>Web Development</h1>
+                    <h1 className='text-center font-pop'>Data Analysis</h1>
                 </div>
 
                 <div>
@@ -91,7 +91,18 @@ const Achievments = () => {
                         src="/images/Samiur Rahman Wasi.png"
                         alt="NextUI Album Cover"
                     />
-                    <h1 className='text-center font-pop'> App Desing</h1>
+                    <h1 className='text-center font-pop'> App Design</h1>
+                </div>
+                
+                <div>
+                    <Image
+                        isBlurred
+                        width="396px"
+                        className='transform transition-transform duration-300 hover:scale-105 md:hover:scale-150 hover:h-max hover:z-20'
+                        src="/images/certificate_page-0001.jpg"
+                        alt="NextUI Album Cover"
+                    />
+                    <h1 className='text-center font-pop'>Web Development</h1>
                 </div>
 
                 <div>
