@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <SkillsContainer className='font-pop'>
             <FlexContainer>
-                <SolarSystem className='scale-[0.36] w-96 h-96 lg:w-[700px] lg:h-[600px] lg:scale-100 left-[10%]'>
+                <SolarSystem className=' w-96 h-96 lg:w-[700px] lg:h-[600px] left-[10%]'>
                     <Sun>SKILLS</Sun>
                     <Orbit duration="10s">
                         <Planet className=''><FaJs size={"7rem"} color="#F7DF1E" /></Planet>
@@ -111,11 +111,19 @@ const FlexContainer = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 `;
 
 const SolarSystem = styled.div`
     position: relative;
+
+    @media (max-width: 767px) {
+      transform: scale(0.45, 0.3);
+    }
+    @media (min-width: 768px) {
+      transform: scale(1.1, 0.6);
+    }
 `;
 
 const Sun = styled.div`
