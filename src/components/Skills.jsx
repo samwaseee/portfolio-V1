@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <SkillsContainer className='font-pop'>
             <FlexContainer>
-                <SolarSystem className=' w-96 h-96 lg:w-[700px] lg:h-[600px] left-[10%]'>
+                <SolarSystem className=' w-[23rem] h-96 lg:w-[700px] lg:h-[600px] left-[10%]'>
                     <Sun>SKILLS</Sun>
                     <Orbit duration="10s">
                         <Planet className=''><FaJs size={"7rem"} color="#F7DF1E" /></Planet>

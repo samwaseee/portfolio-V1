@@ -9,12 +9,16 @@ const About = () => {
   }, []);
 
   return (
-    <div data-aos="flip-left" className="my-24 lg:max-w-[75.5%] mx-auto">
+    <div data-aos="flip-left" className="my-24 lg:max-w-[75%] mx-auto">
       {/* Desktop / Tablet: background image with overlay behind the text */}
       <div className="hidden md:block card glass rounded-lg overflow-hidden">
         <div
-          className="hero lg:min-h-[480px] rounded-lg"
-          style={{ backgroundImage: "url('/images/1759384674471.jpg')" }}
+          className="hero lg:min-h-[480px] lg:h-[66.66%] rounded-lg"
+          style={{
+          backgroundImage: "url('/images/1759384674471.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
         >
           {/* overlay only on desktop */}
           <div className="hero-overlay bg-black/60"></div>
