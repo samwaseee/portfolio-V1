@@ -67,7 +67,7 @@ const Achievements = () => {
                 { src: "/images/Samiur Rahman Wasi.jpg" }
             ]
         },
-        
+
         {
             title: "Web Development",
             images: [
@@ -75,23 +75,59 @@ const Achievements = () => {
                 { src: "/images/certificate_page-0001.jpg" }
             ]
         },
-        
-        {
-            title: "App Development",
-            images: [{ src: "/images/EDGE_certificate.png" }]
-        },
+
         {
             title: "AI & ML",
             images: [
                 { src: "/images/LLM.png", href: "https://simpli-web.app.link/e/LsJPG5fTVXb" },
                 { src: "/images/Gemini for Google Workspace.png", href: "https://simpli-web.app.link/e/qQ9v6AJGUXb" },
                 { src: "/images/NLP.png", href: "https://simpli-web.app.link/e/1y9Wh84SVXb" },
+                { src: "/images/Generative AI.png", href: "https://simpli-web.app.link/e/0VH0gw3MWXb" },
+                { src: "/images/Prompt Engineering.png", href: "https://simpli-web.app.link/e/x7n4Ca1MWXb" },
+                { src: "/images/Agentic AI.png", href: "https://simpli-web.app.link/e/UsWtYbKPWXb" },
             ]
         },
+
+        {
+            title: "App Development",
+            images: [{ src: "/images/EDGE_certificate.png" }]
+        },
+
+        {
+            title: "Data Analysis",
+            images: [
+                { src: "/images/Data Analyst 101.png", href: "https://simpli-web.app.link/e/DDSC4gKSVXb" },
+                { src: "/images/PowerBi.png", href: "https://simpli-web.app.link/e/lsa4OqB0SXb" },
+                { src: "/images/Data Analytics.png", href: "https://simpli-web.app.link/e/F8Ik6l6FUXb" },
+                { src: "/images/Data Analytics with Gen AI.png", href: "https://simpli-web.app.link/e/VSnYaHXMWXb" },
+                { src: "/images/SQL Analytics and BI.png", href: "https://simpli-web.app.link/e/ipseA2XPWXb" },
+            ]
+        },
+
+        {
+            title: "Cloud Hosting",
+            images: [
+                { src: "/images/AWS cloud adoptation framework.png", href: "https://simpli-web.app.link/e/WAhIJJqQWXb" },
+                { src: "/images/Basics of AZURE.png", href: "https://simpli-web.app.link/e/fsyvEugQWXb" },
+                { src: "/images/Google Cloud Operations.png", href: "https://simpli-web.app.link/e/cUPrirxQWXb" },
+            ]
+        },
+
+        {
+            title: "App Design",
+            images: ["/images/Samiur Rahman Wasi.png"]
+        },
+
+        {
+            title: "Idea Generation",
+            images: ["/images/bl.jpg"]
+        },   
+
         {
             title: "Cyber Security",
             images: [{ src: "/images/cybersecurity.png", href: "https://www.linkedin.com/learning/certificates/7650954fed6d8635f3a42fb7a715b46c1979c8dbd2193010a8b9fa56b03ae7ec?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BSsOfl3VeSaCiCY%2BI9DNlHQ%3D%3D" }]
         },
+
         {
             title: "Communication Skills",
             images: [
@@ -99,22 +135,7 @@ const Achievements = () => {
                 { src: "/images/10 minutes school.png", href: "https://10minuteschool.com/certificate/667d3ada155e1" }
             ]
         },
-        {
-            title: "Data Analysis",
-            images: [
-                { src: "/images/Data Analyst 101.png", href: "https://simpli-web.app.link/e/DDSC4gKSVXb" },
-                { src: "/images/PowerBi.png", href: "https://simpli-web.app.link/e/lsa4OqB0SXb" },
-                { src: "/images/Data Analytics.png", href: "https://simpli-web.app.link/e/F8Ik6l6FUXb" }
-            ]
-        },
-        {
-            title: "App Design",
-            images: ["/images/Samiur Rahman Wasi.png"]
-        },
-        {
-            title: "Idea Generation",
-            images: ["/images/bl.jpg"]
-        },
+
         {
             title: "ICISET Conference",
             images: ["/images/ieee.jpg"]
