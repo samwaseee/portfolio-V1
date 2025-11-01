@@ -82,7 +82,11 @@ const Achievements = () => {
         },
         {
             title: "AI & ML",
-            images: [{ src: "/images/Gemini for Google Workspace.png", href: "https://simpli-web.app.link/e/qQ9v6AJGUXb" }]
+            images: [
+                { src: "/images/LLM.png", href: "https://simpli-web.app.link/e/LsJPG5fTVXb" },
+                { src: "/images/Gemini for Google Workspace.png", href: "https://simpli-web.app.link/e/qQ9v6AJGUXb" },
+                { src: "/images/NLP.png", href: "https://simpli-web.app.link/e/1y9Wh84SVXb" },
+            ]
         },
         {
             title: "Cyber Security",
@@ -98,6 +102,7 @@ const Achievements = () => {
         {
             title: "Data Analysis",
             images: [
+                { src: "/images/Data Analyst 101.png", href: "https://simpli-web.app.link/e/DDSC4gKSVXb" },
                 { src: "/images/PowerBi.png", href: "https://simpli-web.app.link/e/lsa4OqB0SXb" },
                 { src: "/images/Data Analytics.png", href: "https://simpli-web.app.link/e/F8Ik6l6FUXb" }
             ]
