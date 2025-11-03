@@ -1,4 +1,3 @@
-import { Image } from '@nextui-org/react';
 import React, { useState } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
@@ -18,40 +17,40 @@ const AchievementDrawer = ({ title, images }) => {
                 }
             </div>
 
-            <div className={`transition-all duration-300 ease-in-out ${isOpen ? "max-h-[2400px] opacity-100" : "max-h-0 opacity-0"
+            <div className={`transition-all duration-300 ease-in-out ${isOpen ? "max-h-[4000px] opacity-100" : "max-h-0 opacity-0"
                 } overflow-hidden`}>
                 <div className="p-4 grid gap-4">
-                    {images.map((img, index) => (
-                        // If img is an object with href, wrap in <a>, otherwise render image alone
-                        img?.href ? (
+                    {images.map((img, index) => {
+                        const src = typeof img === 'string' ? img : img.src;
+                        const href = img?.href;
+
+                        const imgElement = (
+                            <img
+                                key={index}
+                                src={src}
+                                alt={img?.alt ?? `${title} ${index + 1}`}
+                                className="w-full h-auto object-contain rounded-lg"
+                                loading="lazy"
+                            />
+                        );
+
+                        return href ? (
                             <a
                                 key={index}
-                                href={img.href}
+                                href={href}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block rounded overflow-hidden"
+                                className="block rounded-lg overflow-hidden"
                                 aria-label={`${title} image ${index + 1} (opens in new tab)`}
                             >
-                                <Image
-                                    isBlurred
-                                    width="100%"
-                                    className="transform transition-transform duration-300 hover:scale-105"
-                                    src={img.src}
-                                    alt={img.alt ?? `${title} ${index + 1}`}
-                                />
+                                {imgElement}
                             </a>
                         ) : (
-                            <div key={index} className="block rounded overflow-hidden">
-                                <Image
-                                    isBlurred
-                                    width="100%"
-                                    className="transform transition-transform duration-300 hover:scale-105"
-                                    src={typeof img === 'string' ? img : img.src}
-                                    alt={typeof img === 'string' ? `${title} ${index + 1}` : img.alt ?? `${title} ${index + 1}`}
-                                />
+                            <div key={index} className="block rounded-lg overflow-hidden">
+                                {imgElement}
                             </div>
-                        )
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
         </div>
@@ -72,7 +71,8 @@ const Achievements = () => {
             title: "Web Development",
             images: [
                 { src: "/images/blackbelt.png" },
-                { src: "/images/certificate_page-0001.jpg" }
+                { src: "/images/certificate_page-0001.jpg" },
+                { src: "/images/Jira.png", href: "https://simpli-web.app.link/e/0f5n03eEXXb" },
             ]
         },
 
@@ -105,11 +105,12 @@ const Achievements = () => {
         },
 
         {
-            title: "Cloud Hosting",
+            title: "Cloud",
             images: [
                 { src: "/images/AWS cloud adoptation framework.png", href: "https://simpli-web.app.link/e/WAhIJJqQWXb" },
                 { src: "/images/Basics of AZURE.png", href: "https://simpli-web.app.link/e/fsyvEugQWXb" },
                 { src: "/images/Google Cloud Operations.png", href: "https://simpli-web.app.link/e/cUPrirxQWXb" },
+                { src: "/images/Data Transformation with Google Cloud.png", href: "https://simpli-web.app.link/e/f6rkiP8NXXb" },
             ]
         },
 
