@@ -80,9 +80,11 @@ const Achievements = () => {
             title: "AI & ML",
             images: [
                 { src: "/images/LLM.png", href: "https://simpli-web.app.link/e/LsJPG5fTVXb" },
-                { src: "/images/Gemini for Google Workspace.png", href: "https://simpli-web.app.link/e/qQ9v6AJGUXb" },
                 { src: "/images/NLP.png", href: "https://simpli-web.app.link/e/1y9Wh84SVXb" },
+                { src: "/images/Introduction to NN.png", href: "https://simpli-web.app.link/e/g7RhVZICZXb" },
+                { src: "/images/Gemini for Google Workspace.png", href: "https://simpli-web.app.link/e/qQ9v6AJGUXb" },
                 { src: "/images/Generative AI.png", href: "https://simpli-web.app.link/e/0VH0gw3MWXb" },
+                { src: "/images/Tensorflow.png", href: "https://simpli-web.app.link/e/gDLWELZH0Xb" },
                 { src: "/images/Prompt Engineering.png", href: "https://simpli-web.app.link/e/x7n4Ca1MWXb" },
                 { src: "/images/Agentic AI.png", href: "https://simpli-web.app.link/e/UsWtYbKPWXb" },
             ]
@@ -122,11 +124,14 @@ const Achievements = () => {
         {
             title: "Idea Generation",
             images: ["/images/bl.jpg"]
-        },   
+        },
 
         {
             title: "Cyber Security",
-            images: [{ src: "/images/cybersecurity.png", href: "https://www.linkedin.com/learning/certificates/7650954fed6d8635f3a42fb7a715b46c1979c8dbd2193010a8b9fa56b03ae7ec?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BSsOfl3VeSaCiCY%2BI9DNlHQ%3D%3D" }]
+            images: [
+                { src: "/images/cybersecurity.png", href: "https://www.linkedin.com/learning/certificates/7650954fed6d8635f3a42fb7a715b46c1979c8dbd2193010a8b9fa56b03ae7ec?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BSsOfl3VeSaCiCY%2BI9DNlHQ%3D%3D" },
+                { src: "/images/CISSP.png", href: "https://simpli-web.app.link/e/qCUuiKRtZXb" },
+            ]
         },
 
         {
